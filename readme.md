@@ -11,3 +11,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Steps:
+1) Clone the github repository to the local machine.
+2) Install Docker
+3) Verify the Docker installation using the following commands in your terminal: docker -v and docker-compose -v
+4) Run docker-compose up from your project root directory to load AnyThink's backend and frontend
+5) We can check if the backend is up and running by pointing the browser to http://localhost:3000/api/ping
+6) We can check if the frontend is up and running and whether it connects to the backend by creating a new user at http://localhost:3001/register
